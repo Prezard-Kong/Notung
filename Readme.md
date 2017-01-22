@@ -32,7 +32,7 @@ top-3 inqueries
 ![](./imgs/sem_inquery1.jpg)![](./imgs/sem_inquery2.jpg)![](./imgs/sem_inquery3.jpg)  
 ## Neural Style
 ### Neural Style
-The first nice neural style work is this [paper](https://arxiv.org/abs/1508.06576) which combine content features and style well and sovle it as optimization problem. For more details, you can see jcjohnson's [repo](https://github.com/jcjohnson/neural-style) implemented by Torch.
+The first nice neural style work is this [paper](https://arxiv.org/abs/1508.06576) which combines content features and style well and sovle it as optimization problem. For more details, you can see jcjohnson's [repo](https://github.com/jcjohnson/neural-style) implemented by Torch.
 #### An example
 I use the famous painting *Girl with a Pearl Earring* as content and *The Starry Night* as style.  
 content  
@@ -47,7 +47,7 @@ I reimplement it in Tensorflow, but I hadn't trained a usable model because it a
 You can see this [repo](https://github.com/lengstrom/fast-style-transfer) also implemented in Tensorflow.  
 ### Some Others
 This is a [fancinating implementation of Neural Style](https://github.com/cysmith/neural-style-tf) in Tensorflow
-This is a [implematation](https://github.com/rtqichen/style-swap) in Tensorflow of the [paper](https://arxiv.org/abs/1612.04337) which can transfer arbitrary style.
+This is a [implementation](https://github.com/rtqichen/style-swap) in Tensorflow of the [paper](https://arxiv.org/abs/1612.04337) which can transfer arbitrary style.
 ## GUI
 A simple GUI was wrote which contains all the methods above.  
 ![](./imgs/gui1.png)  
