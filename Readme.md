@@ -46,7 +46,7 @@ jcjohnson improved the neural style by training a transform Net which transfer a
 I reimplement it in Tensorflow, but I hadn't trained a usable model because it almost take 20 hours on my graphic card. I have no enough time for experiments to find good hyperparameters by now, and I will do it in the future.  
 You can see this [repo](https://github.com/lengstrom/fast-style-transfer) also implemented in Tensorflow.  
 ### Some Others
-This is a [fancinating implementation of Neural Style](https://github.com/cysmith/neural-style-tf) in Tensorflow
+This is a [fancinating implementation of Neural Style](https://github.com/cysmith/neural-style-tf) in Tensorflow  
 This is a [implementation](https://github.com/rtqichen/style-swap) in Tensorflow of the [paper](https://arxiv.org/abs/1612.04337) which can transfer arbitrary style.
 ## GUI
 A simple GUI was wrote which contains all the methods above.  
